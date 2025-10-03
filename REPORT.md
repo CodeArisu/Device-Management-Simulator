@@ -1,6 +1,6 @@
-# ANALYSIS REPORTS:
+# ANALYSIS REPORT:
 
-For these test I used pre-defined data with same requests for the sake of const.
+For these test I used pre-defined data with same requests for the sake of consistency.
 
 ```json
 data = {
@@ -93,3 +93,15 @@ Total Page Faults: 6
 ```
 
 FIFO replacement "Frame" is the fixed-size block of the physical memory to simulate memory states and "page" replacement. Each requests is treated as a page number that must be in memory to be accessed. A CPU then requests page and it's not in **RAM** a page fault happens. At the end [24, 16, 190] is contained by the frame as these was the last 3 requests.
+
+# Conclusion
+
+```
+Results: 
+
+Waiting Time = 42.0
+Head Movement = 208
+Page Fault = 6
+```
+
+In comparison within each outputs there isn't really to compare as these aren't consistent and isn't solving the same problems and each has pros and cons that wouldn't align with one another. It depends on what the problem is trying to be solved and how it can be solve using a specific algorithm.
