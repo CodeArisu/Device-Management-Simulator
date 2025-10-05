@@ -104,4 +104,4 @@ Head Movement = 208
 Page Fault = 6
 ```
 
-In comparison within each outputs there isn't really to compare as these aren't consistent and isn't solving the same problems and each has pros and cons that wouldn't align with one another. It depends on what the problem is trying to be solved and how it can be solve using a specific algorithm.
+In comparison, these results isn't good for comparison as these aren't consistent solutions and isn't solving the same problems, each has pros and cons that wouldn't align with one another. It depends on what the problem is trying to be solved and how it can be solve using a specific algorithm. But for me the in terms on **Time Complexity** of the algorithm **Paging** is not time and resource extensive and does not need a lot of computations. 
